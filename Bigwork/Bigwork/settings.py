@@ -118,5 +118,4 @@ SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderPriorityQueue"
 
 # redis连接信息
 REDIS_HOST = '10.11.203.144' # 同网段中另一台电脑linux中的ip地址
-# REDIS_HOST = '60.205.206.158'# 阿里云ip
 REDIS_PORT = 6379
