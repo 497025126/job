@@ -16,7 +16,7 @@ class BigworkPipeline(object):
 class LagouPipeline(object):
     def __init__(self):
         try:
-            self.conn = pymysql.connect('127.0.0.1', 'root', 'asd19960321', 'my_spider', charset='utf8')
+            self.conn = pymysql.connect('127.0.0.1', 'root', '*******', 'my_spider', charset='utf8')
             self.cursor = self.conn.cursor()
         except Exception as e:
             print(e)
